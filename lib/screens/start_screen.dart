@@ -21,8 +21,8 @@ class _StartScreenState extends State<StartScreen> {
     });
     pageController.animateToPage(
       index,
-      duration: Duration(milliseconds: 200),
-      curve: Curves.fastOutSlowIn,
+      duration: Duration(milliseconds: 250),
+      curve: Curves.bounceInOut,
     );
   }
 

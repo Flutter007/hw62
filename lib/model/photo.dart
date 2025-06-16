@@ -1,9 +1,12 @@
 import 'dart:io';
+import 'package:uuid/uuid.dart';
+
+final uuid = Uuid();
 
 class Photo {
   final String id;
-  final String title;
+
   final File? photo;
 
-  Photo({required this.id, required this.title, required this.photo});
+  Photo({String? id, required this.photo}) : id = id ?? uuid.v4();
 }
