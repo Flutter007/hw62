@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hw62/screens/photos_screen.dart';
-
 import 'add_photo_screen.dart';
 
 class StartScreen extends StatefulWidget {

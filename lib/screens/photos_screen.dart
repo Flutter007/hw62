@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hw62/widgets/photo_grid.dart';
-
 import '../provider/photos_provider.dart';
 import '../widgets/empty_photos_list_text.dart';
 

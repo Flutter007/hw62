@@ -1,9 +1,7 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:hw62/widgets/mirror_photos_row.dart';
 import 'package:image_picker/image_picker.dart';
-
 import 'add_photo_container.dart';
 
 class ImagePickerField extends StatefulWidget {
